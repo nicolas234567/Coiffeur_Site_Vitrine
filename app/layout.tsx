@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Salon Elise",
-  description: "Site coiffure pour femme professionnel",
+  description: "Salon élise - Site coiffure pour femme professionnel",
 };
 
 export default function RootLayout({
