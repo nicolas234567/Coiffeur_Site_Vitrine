@@ -31,11 +31,33 @@ body {
 h1{
   text-align: center;
   padding-top: 10%;
-  font-size: 20px;
+  font-size: 60px;
 }
 
-p{
+h2{
   text-align: center;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+/* --- hero --- */
+.texte_left {
+  flex: 1;        
+  font-size: 30px;
+}
+
+/* --- images --- */
+.images_left {
+  display: flex;
+  justify-content: left;
+  padding: 5%;
+}
+
+.images_right {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;         
+  padding: 10%;
 }
 
 /* --- footer --- */
@@ -54,17 +76,17 @@ footer {
   display: flex;
   align-items: center;
   position: relative;   
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Gauche */
-.left {
+.footer_left {
   flex: 1;
   text-align: left;
 }
 
 /* Centre */
-.center {
+.footer_center {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -72,7 +94,7 @@ footer {
 }
 
 /* Droite */
-.right {
+.footer_right {
   flex: 1;
   text-align: right;
 }
