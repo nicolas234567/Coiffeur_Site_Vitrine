@@ -4,12 +4,8 @@ export default function Hero() {
   return (
     <main className="hero">
         <h1>Elise coiffure - Salon de coiffure Professionnel pour femme</h1>
-        <h2>
-          Bienvenue au Salon Élise, votre salon de coiffure à Soisy-sur-seine. 
-          <br />Notre équipe de professionnels vous accueille dans un cadre chaleureux pour sublimer votre style.
-          <br />Coupe, coloration, soin — nous prenons soin de vous.
-        </h2>
-        <div className="images_left">
+
+        <span className="images_left">
           <Image
               src="/images/coiffure_laque.jpg"
               alt="coiffure_laque"
@@ -17,9 +13,14 @@ export default function Hero() {
               height={600}
               className="hero_image"
             />
-        </div>
+        <span className="texte_right">
+          Bienvenue au Salon Élise, votre salon de coiffure à Soisy-sur-seine. 
+          <br />Notre équipe de professionnels vous accueille dans un cadre chaleureux pour sublimer votre style.
+          <br />Coupe, coloration, soin — nous prenons soin de vous.
+        </span>
+        </span>
         <span className="images_right">
-          <span className="texte_left">
+          <span className="texte_left" id="tarifs">
             Nos tarifs :<br /><br />
 
             Coupe femme : 30€<br />

@@ -40,17 +40,39 @@ h2{
   font-size: 30px;
 }
 
+/* --- Navbar --- */
+nav {
+  margin-top: auto;
+  background-color: #3b3b3b;
+}
+
+.nav_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_right {
+  display: flex;
+  gap: 2%;
+}
+
 /* --- hero --- */
 .texte_left {
   flex: 1;        
   font-size: 30px;
 }
 
+.texte_right {
+  flex: 1;        
+  font-size: 30px;
+}
 /* --- images --- */
 .images_left {
   display: flex;
-  justify-content: left;
-  padding: 5%;
+  align-items: flex-start;
+  gap: 2rem;         
+  padding: 10%;
 }
 
 .images_right {
@@ -83,6 +105,7 @@ footer {
 .footer_left {
   flex: 1;
   text-align: left;
+  padding-left: 2%;
 }
 
 /* Centre */
@@ -97,6 +120,7 @@ footer {
 .footer_right {
   flex: 1;
   text-align: right;
+  padding-right: 2%;
 }
 
 /* --- Scrollbar --- */
