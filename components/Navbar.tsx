@@ -2,13 +2,14 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav>
       <div className="nav_line">
-        <div className="nav_center">Élise Coiffure Votre beauté, notre passion depuis 2005 </div>
-        <div className="nav_right">
-          <Link className="nav_link" href="#reservation">Réserver</Link>
-          <Link className="nav_link" href="#tarifs">Nos Tarifs</Link>
+        <span className="nav_logo">Élise <span>Coiffure</span></span>
+        <div className="nav_links">
+          <Link className="nav_link" href="#tarifs">Tarifs</Link>
+          <Link className="nav_link nav_link_cta" href="#reservation">Réserver</Link>
         </div>
       </div>
     </nav>
-  );}
+  );
+}
